@@ -1,0 +1,19 @@
+GPT-6 is a family of large language models (LLM) developed by American artificial intelligence firm OpenAI. GPT-6 Astra was released to the general public on September 4, 2026, while GPT-6 Sol and GPT-6 Luna were released on September 22, 2026. On October 7, 2026, GPT-6 Instant was released to paid users, featuring an "Intelligent UI" that includes interactive widgets with answers. This was released to free users a day later.
+
+History
+Following a series of unsanctioned cyberattacks by OpenAI agents in July 2026, the company delayed the release of their next model to add more safeguards. GPT-6 Astra was released as a limited preview on September 3, 2026, the same day it was unveiled. The company publicly released the model to paid users the following day, in a restricted version that rejects certain prompts in areas such as cybersecurity.
+
+Capabilities
+OpenAI called the model a "generational leap" for areas such as cybersecurity, professional work, software engineering, and science, with the company's president Greg Brockman claiming that it could eventually be seen as the arrival of artificial general intelligence (AGI). The company also stated that GPT-6 Astra "is faster and capable of performing more tasks than any prior iteration" and better at staying focused, adhering to task boundaries, understanding user intent, handling tedious tasks, and completing multi-step workflows. OpenAI has mentioned several examples of tasks GPT-6 Astra could perform, including filling out tax returns, building video game scenes, ordering food, and conducting job searches. It described the model as state of the art in coding, math, and navigating computers and web browsers.
+OpenAI's vice president of research, Aidan Clark, told reporters that GPT-6 Astra's development involved "by far" their largest training run: "It's the first time we've pretrained on more than 100,000 GPUs at our Stargate site in Texas."
+
+Safety
+OpenAI described Astra as its most aligned model yet, but warned about its cybersecurity capabilities.
+An anonymous insider source claimed that GPT-6 Astra uses a new reasoning technique called "recurrent depth" or "looped transformers", which increases efficiency but "works in a way that obscures some or all of the AI's reasoning, otherwise known as its 'chain of thought'". Despite limited use, this has been met with concerns regarding the model's monitorability. OpenAI's chief scientist Jakub Pachocki said that preventing unintended harm from AI is increasingly difficult and may be a bottleneck to further AI progress.
+
+See also
+List of large language models
+
+References
+External links
+Official website

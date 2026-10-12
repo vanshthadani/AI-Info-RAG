@@ -1,0 +1,39 @@
+Jev is a proprietary artificial intelligence model developed by TypeSafe AI, a San Francisco–based company founded in 2024. It was released in limited early access on 15 September 2026, alongside the announcement of a US$40 million seed round led by DCVC.
+Jev is a discriminative model, that is, it is used for classification or regression, not generation. It does not generate natural-language text. It instead returns typed values together with probability estimates and confidence scores. Its output is intended to be consumed directly by software rather than read by a person. Unlike classical discriminative models, Jev does not require data-specific training. Like generative pretrained transformer models, it can perform zero-shot learning of input for categories provided at inference time, based on contextual information provided at inference time. 
+TypeSafe describes Jev as the first of a class of models it calls "System One models", a name the company says comes from fast, intuitive System 1 thinking as popularized by Daniel Kahneman.
+
+Background
+TypeSafe AI was founded in 2024 by Diogo Almeida, Erik Gafni and Sasha Sheng. Almeida, the company's chief executive, spent approximately four years at OpenAI working on reinforcement learning from human feedback (RLHF), InstructGPT, ChatGPT and GPT-4 before leaving in 2024. The System One model works on Reinforcement Learning for Calibrated Decisions (RLCD).
+The company positions Jev as a reliable model for automation and software, and as a response to overconfidence in existing models.
+Before the announcement, Jev was being developed in stealth for roughly two years.
+The model is named after 19th-century English economist William Stanley Jevons, whose Jevons paradox describes how more efficient use of a resource can increase consumption. Almeida has said the name reflects an expectation that cheaper machine intelligence will lead to far wider deployment.
+
+Technical specification
+Jev takes an input state together with one or more typed questions (or primitives), and outputs a list of probability distributions.
+
+Input
+The official API has a limit of 64k tokens per input, with 32k tokens for state plus the longest question.
+
+A state is an entry. An entry is a string, JSON object, or array of string. Examples:A question is a JSON object. Jev allows three types of questions, all multiple-choice.
+
+Schematically: If the state is a JSON object, the question can also refer to attributes of the state. For example:
+
+Output
+Jev outputs a list of probability distributions, one per question. Each probability distribution is a discrete probability distribution over the choices of that question. This is the only type of output by Jev. The official API returns further data, but these are computed by simple programs, not by Jev. There is no official separate limit on its API output, but this is because the output length is already limited by the input length. 
+All questions are answered in parallel, meaning that the type system of Jev does not allow any dependency between the questions. Consequently, the official documentation state that if one question depends on another's answer, one must make two requests in sequence. 
+The official API also returns further numerical data, such as choice, score, confidence, computed by fixed formulas based on the probability distributions. It also returns certain metadata, such as legend, for standard book-keeping purposes. 
+
+Architecture
+TypeSafe has not published Jev's architecture, weights, or a technical paper. The company describes it as transformer-based. Outside observers have suggested the model may be built on an open-weight LLM or a BERT-like architecture.
+
+Training
+Jev is trained exclusively on synthetic data, by an algorithm the company calls Reinforcement Learning for Calibrated Decisions (RLCD). The details are unpublished, though it is suspected to be a standard supervised learning algorithm with a loss function that includes loss terms that punish calibration. The loss terms may include the Brier score.
+
+Performance
+The official announcement included demos of Jev used in workflows. A workflow is simply a standard decision flowchart where some decisions use outputs from Jev.
+TypeSafe claims that when tested on its own workflows, Jev achieves end-to-end response times of 70–500 milliseconds, 40–200x faster and 40–400x cheaper than frontier LLMs on comparable tests. TypeSafe states in its own technical notes that the workflows were created by members of its model-capabilities team and thus may be biased compared to real-world tasks.
+
+References
+External links
+Official website
+Developer documentation for Jev

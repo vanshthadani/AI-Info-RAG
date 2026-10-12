@@ -1,0 +1,55 @@
+Claude Mythos is a series of large language models developed by Anthropic. It is the most complicated set of models in the Claude product line. The first model in the series was Claude Mythos Preview. Anthropic did not release the model to the public, citing the model's ability to find software vulnerabilities. Starting in April 2026 under the name Project Glasswing, some companies were given access to Claude Mythos to scan for security vulnerabilities in critical software. The public had mixed reactions to the announcement of Claude Mythos Preview. 
+In June 2026, Anthropic publicly released Claude Fable 5, a "Mythos-class" model made available for general use with a set of safeguards, alongside Claude Mythos 5, a restricted-access version of the same underlying model with those safeguards lifted in some areas. According to Anthropic, the two models are identical apart from their safeguards; when Fable 5's classifiers flag a request relating to cybersecurity, biology and chemistry, or model distillation, the response is instead handled by the less capable Claude Opus. Mythos 5.1 and Fable 5.1 were released in September 2026.
+According to industry estimates reported by the Financial Times, Mythos has approximately 8 trillion parameters, while Fable 5 has approximately 5 trillion parameters.
+
+Leak
+The existence of a model named Claude Mythos had become publicly known on March 26, 2026 due to leaked blog post drafts. Anthropic later acknowledged the development of Mythos to Fortune, and said that the model presented significant risks to cybersecurity. According to Axios, Anthropic had issued a warning about Mythos's capabilities to government officials that month.
+
+Models
+Mythos Preview
+Anthropic publicly disclosed Mythos on April 7. The company stated that it had no plan to release Mythos to the public. It instead launched Project Glasswing, with a consortium of companies using Mythos to find and fix software vulnerabilities. Over forty companies were granted access, including Microsoft, Apple, Google, Amazon Web Services, the Linux Foundation, Cisco, Nvidia, and Broadcom. That day, several unauthorized users gained access to Mythos, according to Bloomberg News.
+Reportedly, a few users in a private Discord channel gained access to Mythos the same day it was announced, using details from the recent Mercor data breach. The NSA has also used Mythos, despite the fact that the DoW, its parent organization, had blacklisted Anthropic after a dispute. In April 2026, the Chinese government requested access to Mythos, but was rebuffed.
+On June 2, Anthropic expanded access to its Claude Mythos cyber-security model, making it available to 150 organizations in more than 15 countries.
+In its May 28, 2026 announcement of Claude Opus 4.8, Anthropic stated it expected to make "Mythos-class" models available to all customers within weeks of the announcement, pending the development of additional cybersecurity safeguards.
+
+Mythos 5 and Fable 5
+On June 9, Anthropic released Claude Mythos 5 as a preview via Project Glasswing alongside a version of Mythos with extended safeguards titled Fable 5.
+On June 12, the U.S. government sent Anthropic a letter prohibiting access to both Mythos 5 and Fable 5 to any non-U.S. national whatsoever, regardless of their location, due to national security concerns. As a result, Anthropic revoked access to both models for all customers.
+On June 26, Anthropic started to restore access to Mythos to some U.S. organizations.
+On June 30, Anthropic announced that the U.S. Department of Commerce had lifted restrictions on both Fable 5 and Mythos 5, and that access to the models would be restored the next day. Anthropic included temporary access to Fable 5 for all of its subscription plans from July 1 until July 19, extending the promotional period several times. On July 20, Fable 5 was made a standard feature of Anthropic's higher-tier subscription plans.
+
+Mythos 5.1 and Fable 5.1
+On September 1 2026, Anthropic released Claude Mythos 5.1 and Claude Fable 5.1.
+On October 6, 2026, Anthropic released Mythos 5.1 to users who were approved for the updated Cyber Verification Program.
+
+Specifications and capabilities
+Claude Mythos Preview is a large language model designed to fix vulnerabilities within software. The UK AI Security Institute tested Claude Mythos with a cyber range. Claude Mythos ranked highest, with Claude Opus 4.6 coming in second, followed by a tie between GPT-5.4 and GPT-5.3 Codex.  According to industry estimates reported by the Financial Times, Mythos has approximately 8 trillion parameters, while Fable 5 has approximately 5 trillion parameters.
+
+Reported vulnerabilities
+Anthropic stated that Mythos had found vulnerabilities in "every major operating system and every major web browser" in its testing. An independent security researcher cast doubt on these claims, as no independent verification of these numbers can be found outside of promotional documents. As the researcher notes, the peer-review-ready report produced by Anthropic admits that Claude Opus 4.6 was, in fact, the model which found the bugs before handing them off to Mythos for exploitation. The Firefox bugs reported were not found in Firefox, but in an environment intended to mimick the application with reduced security features. Furthermore, the Anthropic tests found that, while Mythos was able to achieve full code execution in 72.4% of cases, Claude Sonnet 4.6 outperformed the larger model when removing the two most exploitable bugs. When those bugs are removed, Mythos was only able to achieve full code execution in less than 5% of cases. Anthropic stated that "almost every successful run relies on the same two now-patched bugs."
+Another independent test found that one of the headline vulnerabilities identified by Mythos was also identified by 8 out of 8 tested open-source models, one with only 3.6B active parameters and costing 11 cents per million tokens.
+Two weeks after the limited release, Mozilla announced that it had found and patched 271 security vulnerabilities in Firefox using Mythos Preview. On May 14, 2026, employees at Calif.io announced they had used Mythos to create a memory corruption exploit affecting Apple M5 chips.
+
+Responses
+Media response
+Thomas Fraise, writing for The Conversation, argued that Mythos could ruin nuclear deterrence.  Brett J. Goldstein, writing for The New York Times, argued that the model puts individuals and smaller teams at a "cybersecurity disadvantage".
+
+Industry response
+Financial response
+Hours after Anthropic publicly revealed Mythos, U.S. secretary of the treasury Scott Bessent and Federal Reserve chair Jerome Powell convened financial executives to issue a warning on Mythos's capabilities. Several banks began testing Mythos at their behest, including JPMorgan Chase, Goldman Sachs, Citigroup, Bank of America, and Morgan Stanley. The Bank of Canada summoned major lenders to a similar meeting the following day. Mythos was scheduled to be discussed by the Bank of England's Cross Market Operational Resilience Group and CMORG AI Taskforce meetings.
+European Central Bank president Christine Lagarde praised Anthropic for limiting access to Mythos. In response to European banks that were not given access to Mythos, Mistral AI began developing its own model.
+
+Governmental responses
+On April 14, 2026, Bloomberg reported that the United States Department of the Treasury was seeking access to Claude Mythos. On April 16, the White House and Anthropic held a meeting about Mythos. On May 13, a bipartisan group of 32 US Representatives wrote to the Office of the National Cyber Director (ONCD) on revisiting the U.S.'s federal cybersecurity policy.
+On April 23, Nirmala Sitharaman, chair of India's Ministry of Finance held a meeting of banks and government officials to discuss potential new cybersecurity threats following the release of Mythos. 
+At a joint public-private meeting hosted by Japan's Financial Services Agency on April 24, participants agreed to form a work-group to counter potential threats caused by Mythos.
+After an April meeting with officials from Anthropic, Evan Solomon, the Canadian minister of artificial intelligence and digital innovation, praised Anthropic for limiting access to Mythos.
+Several meetings with banks were held by the Australian Prudential Regulation Authority in response to Mythos. 
+In April 2026, Anthropic declined to provide access to Claude Mythos after allegedly receiving a request from a member of a Chinese think tank at a conference in Singapore. The Chinese Embassy in the United States stated that it was not familiar with the request and denied that the request was related to the Chinese government.
+
+Project Glasswing
+In April 2026, using the name Project Glasswing, Anthropic provided access to Claude Mythos for select companies and organizations in order to scan for security vulnerabilities in critical software. In May 2026, the project expanded access from 50 to 200 organization in power, water, healthcare, communications and hardware. The company said in May that its first 50 Glasswing partners had found over 10,000 high or severe critical vulnerabilities. According to security researcher Patrick Garrity, only 10% of discovered flaws had been disclosed and less than 1% had been fixed as of September. Garrity also describes a large discrepancy in what Mythos considers a high severity vulnerability (90% of bugs) compared with closer to 60% for project maintainers. Jai Vijayan, writing for the security magazine Dark Reading, says that there exists a bottleneck in validating and remediating bugs, since this is done largely by humans.
+
+References
+External links
+Official website
