@@ -7,6 +7,7 @@ A Retrieval-Augmented Generation (RAG) project that enhances a language model's 
 * Collects AI-related information from Wikipedia using `wikipediaapi`.
 * Stores and retrieves relevant text chunks using ChromaDB.
 * Compares base-model responses against RAG-enhanced responses.
+* Topics used for info - Claude Mythos, GPT-6, Grok, Jev AI Model, Anthropic.
 
 ## Example: Base Model vs. RAG
 
@@ -36,7 +37,7 @@ This example demonstrates how Retrieval-Augmented Generation (RAG) can reduce ha
 
 ## Tech Stack
 
-Python · ChromaDB · Hugging Face Transformers · Wikipedia-API
+Python · ChromaDB · Unsloth · Wikipedia-API
 
 ## Goal
 
