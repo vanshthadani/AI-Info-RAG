@@ -15,13 +15,13 @@ A Retrieval-Augmented Generation (RAG) project that enhances a language model's 
 
 ### Base Qwen
 
-> Anthropic AI refers to the artificial intelligence research and development group that is part of OpenAI. It was founded by Elon Musk, Sam Altman, and other prominent figures...
+> Anthropic AI refers to the artificial intelligence research and development group that is part of OpenAI. It was founded by Elon Musk, Sam Altman, and other prominent figures in the field of machine learning and artificial intelligence. The goal of Anthropic AI is to develop safe and beneficial AI systems that can help humans solve complex problems and improve our lives. They conduct research on various aspects of AI, such as ethics, safety, and policy, and work closely with industry partners to ensure that their research is applied in a responsible and effective way.
 
 **Observation:** The base model produced incorrect claims, including that Anthropic is part of OpenAI and was founded by Elon Musk and Sam Altman.
 
 ### Qwen with RAG
 
-> Anthropic AI is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California. Its flagship product is Claude, a series of proprietary large language models (LLMs)...
+> Anthropic AI is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California. Its flagship product is Claude, a series of proprietary large language models (LLMs). The company is privately held but reportedly plans an initial public offering in 2026. Anthropic is one of the world's most valuable AI pure play companies, rivaled by OpenAI.
 
 **Observation:** With retrieved context from the knowledge database, the model provided a substantially more accurate description of Anthropic, including its location and flagship product.
 
