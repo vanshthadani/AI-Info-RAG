@@ -29,6 +29,8 @@ A Retrieval-Augmented Generation (RAG) project that enhances a language model's 
 
 This example demonstrates how Retrieval-Augmented Generation (RAG) can reduce hallucinations by grounding model responses in retrieved information. RAG does not guarantee factual accuracy, and the quality of its answers still depends on retrieval relevance and the model's use of the provided context.
 
+More Examples at `Examples.txt`
+
 
 ## Notebooks
 
